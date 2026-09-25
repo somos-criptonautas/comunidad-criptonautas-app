@@ -1,0 +1,56 @@
+{
+  "packageId": "co.criptonautas.comunidad",
+  "host": "comunidad.criptonautas.co",
+  "name": "Comunidad — Criptonautas",
+  "launcherName": "Criptonautas",
+  "display": "standalone",
+  "themeColor": "#F1F1F1",
+  "themeColorDark": "#111111",
+  "navigationColor": "#F1F1F1",
+  "navigationColorDark": "#111111",
+  "navigationDividerColor": "#F1F1F1",
+  "navigationDividerColorDark": "#111111",
+  "backgroundColor": "#F8F8F8",
+  "enableNotifications": true,
+  "startUrl": "/",
+  "iconUrl": "https://cdn-comunidad.criptonautas.co/uploads/default/optimized/2X/b/b5842581f5cfabd77d73b834d0ce55ed3ec262a5_2_512x512.png",
+  "maskableIconUrl": "https://cdn-comunidad.criptonautas.co/uploads/default/optimized/2X/b/b5842581f5cfabd77d73b834d0ce55ed3ec262a5_2_512x512.png",
+  "splashScreenFadeOutDuration": 300,
+  "signingKey": {
+    "path": "./android.keystore",
+    "alias": "android"
+  },
+  "appVersionName": "1.0.0",
+  "appVersionCode": 1,
+  "shortcuts": [
+    { "name": "nueva historia", "shortName": "publica", "url": "https://comunidad.criptonautas.co/new-topic", "chosenIconUrl": "https://cdn-comunidad.criptonautas.co/uploads/default/optimized/2X/b/b5842581f5cfabd77d73b834d0ce55ed3ec262a5_2_512x512.png" },
+    { "name": "personales", "shortName": "personales", "url": "https://comunidad.criptonautas.co/my/messages", "chosenIconUrl": "https://cdn-comunidad.criptonautas.co/uploads/default/optimized/2X/b/b5842581f5cfabd77d73b834d0ce55ed3ec262a5_2_512x512.png" }
+  ],
+  "generatorApp": "bubblewrap-cli",
+  "webManifestUrl": "https://comunidad.criptonautas.co/manifest.webmanifest",
+  "fallbackType": "customtabs",
+  "features": {},
+  "alphaDependencies": { "enabled": false },
+  "enableSiteSettingsShortcut": true,
+  "isChromeOSOnly": false,
+  "isMetaQuest": false,
+  "fullScopeUrl": "https://comunidad.criptonautas.co/",
+  "minSdkVersion": 21,
+  "orientation": "default",
+  "fingerprints": [],
+  "additionalTrustedOrigins": [],
+  "retainedBundles": [],
+  "protocolHandlers": [],
+  "fileHandlers": [],
+  "shareTarget": {
+    "action": "/share-target",
+    "method": "POST",
+    "enctype": "multipart/form-data",
+    "params": {
+      "title": "title",
+      "text": "text",
+      "url": "url",
+      "files": [{ "name": "files", "accept": ["image/*", "video/*", "application/pdf", "text/plain"] }]
+    }
+  }
+}

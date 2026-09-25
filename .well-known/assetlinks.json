@@ -1,0 +1,8 @@
+[{
+  "relation": ["delegate_permission/common.handle_all_urls"],
+  "target": {
+    "namespace": "android_app",
+    "package_name": "co.criptonautas.comunidad",
+    "sha256_cert_fingerprints": ["CE:A6:C9:AD:12:66:78:63:9E:B7:D9:B8:83:96:C1:5D:16:1E:E9:D1:E6:CF:90:F0:13:44:77:51:8E:D1:3D:82"]
+  }
+}]
