@@ -3,6 +3,6 @@
   "target": {
     "namespace": "android_app",
     "package_name": "co.criptonautas.comunidad",
-    "sha256_cert_fingerprints": ["CE:A6:C9:AD:12:66:78:63:9E:B7:D9:B8:83:96:C1:5D:16:1E:E9:D1:E6:CF:90:F0:13:44:77:51:8E:D1:3D:82"]
+    "sha256_cert_fingerprints": ["8B:92:62:A7:08:E4:9C:74:BB:29:91:20:7C:A5:0A:35:D1:D9:CE:7B:A9:FC:ED:E7:63:EA:37:0A:28:44:35:0F"]
   }
 }]
