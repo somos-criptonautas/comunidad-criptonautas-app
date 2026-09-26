@@ -38,7 +38,7 @@
   "minSdkVersion": 21,
   "orientation": "default",
   "fingerprints": [],
-  "additionalTrustedOrigins": [],
+  "additionalTrustedOrigins": ["https://auth.criptonautas.co"],
   "retainedBundles": [],
   "protocolHandlers": [],
   "fileHandlers": [],

@@ -16,6 +16,12 @@
 -->
 <resources>
   
+    <string-array name="additional_trusted_origins">
+    
+      <item>https://https://auth.criptonautas.co</item>
+    
+    </string-array>
+  
 
   <!--
     The "fullscreen" and "fullscreen-sticky" TWA manifest values correspond to "immersive" and "sticky-immersive"
@@ -37,6 +43,14 @@
             \"site\": \"https://comunidad.criptonautas.co\"
         }
     }]
+    
+      ,[{
+          \"relation\": [\"delegate_permission/common.handle_all_urls\"],
+          \"target\": {
+              \"namespace\": \"web\",
+              \"site\": \"https://https://auth.criptonautas.co\"
+          }
+      }]        
     
   </string>  
 </resources>
