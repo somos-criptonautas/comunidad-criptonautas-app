@@ -27,11 +27,11 @@ def twaManifest = [
     name: 'Comunidad — Criptonautas', // The application name.
     launcherName: 'Criptonautas', // The name shown on the Android Launcher.
     themeColor: '#F1F1F1', // The color used for the status bar.
-    themeColorDark: '#111111', // The color used for the dark status bar.
+    themeColorDark: '#1C1C1C', // The color used for the dark status bar.
     navigationColor: '#F1F1F1', // The color used for the navigation bar.
-    navigationColorDark: '#111111', // The color used for the dark navbar.
+    navigationColorDark: '#1C1C1C', // The color used for the dark navbar.
     navigationDividerColor: '#F1F1F1', // The navbar divider color.
-    navigationDividerColorDark: '#111111', // The dark navbar divider color.
+    navigationDividerColorDark: '#1C1C1C', // The dark navbar divider color.
     backgroundColor: '#F8F8F8', // The color used for the splash screen background.
     enableNotifications: true, // Set to true to enable notification delegation.
     // Every shortcut must include the following fields:
