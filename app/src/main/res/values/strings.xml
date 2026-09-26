@@ -18,7 +18,7 @@
   
     <string-array name="additional_trusted_origins">
     
-      <item>https://https://auth.criptonautas.co</item>
+      <item>https://auth.criptonautas.co</item>
     
     </string-array>
   
@@ -48,7 +48,7 @@
           \"relation\": [\"delegate_permission/common.handle_all_urls\"],
           \"target\": {
               \"namespace\": \"web\",
-              \"site\": \"https://https://auth.criptonautas.co\"
+              \"site\": \"https://auth.criptonautas.co\"
           }
       }]        
     
