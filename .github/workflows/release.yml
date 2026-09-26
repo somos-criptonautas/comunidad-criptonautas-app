@@ -31,7 +31,7 @@ jobs:
           mkdir dist
           "$BT/zipalign" -f -p 4 app/build/outputs/apk/release/app-release-unsigned.apk dist/aligned.apk
           "$BT/apksigner" sign --ks "$RUNNER_TEMP/android.keystore" --ks-key-alias android \
-            --ks-pass env:KEYSTORE_PASSWORD --out dist/criptonautas.apk dist/aligned.apk
+            --ks-pass env:KEYSTORE_PASSWORD --pass-encoding utf-8 --out dist/criptonautas.apk dist/aligned.apk
           rm dist/aligned.apk
           cp app/build/outputs/bundle/release/app-release.aab dist/criptonautas.aab
           jarsigner -keystore "$RUNNER_TEMP/android.keystore" -storepass:env KEYSTORE_PASSWORD \
