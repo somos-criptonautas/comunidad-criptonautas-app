@@ -20,6 +20,24 @@
     
       <item>https://auth.criptonautas.co</item>
     
+      <item>https://criptonautas.co</item>
+    
+      <item>https://blocks.criptonautas.co</item>
+    
+      <item>https://videos.criptonautas.co</item>
+    
+      <item>https://files.criptonautas.co</item>
+    
+      <item>https://calc.criptonautas.co</item>
+    
+      <item>https://send.criptonautas.co</item>
+    
+      <item>https://search.criptonautas.co</item>
+    
+      <item>https://rd.criptonautas.co</item>
+    
+      <item>https://wk.criptonautas.co</item>
+    
     </string-array>
   
 
@@ -49,6 +67,78 @@
           \"target\": {
               \"namespace\": \"web\",
               \"site\": \"https://auth.criptonautas.co\"
+          }
+      }]        
+    
+      ,[{
+          \"relation\": [\"delegate_permission/common.handle_all_urls\"],
+          \"target\": {
+              \"namespace\": \"web\",
+              \"site\": \"https://criptonautas.co\"
+          }
+      }]        
+    
+      ,[{
+          \"relation\": [\"delegate_permission/common.handle_all_urls\"],
+          \"target\": {
+              \"namespace\": \"web\",
+              \"site\": \"https://blocks.criptonautas.co\"
+          }
+      }]        
+    
+      ,[{
+          \"relation\": [\"delegate_permission/common.handle_all_urls\"],
+          \"target\": {
+              \"namespace\": \"web\",
+              \"site\": \"https://videos.criptonautas.co\"
+          }
+      }]        
+    
+      ,[{
+          \"relation\": [\"delegate_permission/common.handle_all_urls\"],
+          \"target\": {
+              \"namespace\": \"web\",
+              \"site\": \"https://files.criptonautas.co\"
+          }
+      }]        
+    
+      ,[{
+          \"relation\": [\"delegate_permission/common.handle_all_urls\"],
+          \"target\": {
+              \"namespace\": \"web\",
+              \"site\": \"https://calc.criptonautas.co\"
+          }
+      }]        
+    
+      ,[{
+          \"relation\": [\"delegate_permission/common.handle_all_urls\"],
+          \"target\": {
+              \"namespace\": \"web\",
+              \"site\": \"https://send.criptonautas.co\"
+          }
+      }]        
+    
+      ,[{
+          \"relation\": [\"delegate_permission/common.handle_all_urls\"],
+          \"target\": {
+              \"namespace\": \"web\",
+              \"site\": \"https://search.criptonautas.co\"
+          }
+      }]        
+    
+      ,[{
+          \"relation\": [\"delegate_permission/common.handle_all_urls\"],
+          \"target\": {
+              \"namespace\": \"web\",
+              \"site\": \"https://rd.criptonautas.co\"
+          }
+      }]        
+    
+      ,[{
+          \"relation\": [\"delegate_permission/common.handle_all_urls\"],
+          \"target\": {
+              \"namespace\": \"web\",
+              \"site\": \"https://wk.criptonautas.co\"
           }
       }]        
     
