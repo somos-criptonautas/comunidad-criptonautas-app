@@ -27,6 +27,36 @@ def keep(match):
 
 stripped = filters.sub(keep, manifest)
 removed = manifest.count("autoVerify") - stripped.count("autoVerify")
+
+# Launch screen without the static icon: just the background colour (values and
+# values-night/colors.xml), so the forum's own animated splash appears on the same
+# background and the hand-off reads as one screen.
+splash = 'android:resource="@drawable/splash"'
+if splash in stripped:
+    stripped = stripped.replace(splash, 'android:resource="@drawable/splash_blank"')
+elif 'android:resource="@drawable/splash_blank"' not in stripped:
+    sys.exit("Splash image meta-data not found: check AndroidManifest.xml by hand.")
+
 open(path, "w").write(stripped)
-print(f"Removed {removed} extra app-link intent filter(s).")
+print(f"Removed {removed} extra app-link intent filter(s); launch screen without icon.")
 PY
+
+# Bubblewrap wipes extra resources on update, so these two are written here every time.
+mkdir -p app/src/main/res/drawable app/src/main/res/values-night
+cat > app/src/main/res/drawable/splash_blank.xml <<'XML'
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Transparent launch-screen image, written by scripts/update.sh. -->
+<shape xmlns:android="http://schemas.android.com/apk/res/android" android:shape="rectangle">
+    <size android:width="1dp" android:height="1dp" />
+    <solid android:color="@android:color/transparent" />
+</shape>
+XML
+# Dark-mode launch background: the palette's dark `secondary`, what the forum's splash
+# draws on. Light mode uses twa-manifest.json's backgroundColor.
+cat > app/src/main/res/values-night/colors.xml <<'XML'
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Written by scripts/update.sh. -->
+<resources>
+    <color name="backgroundColor">#181719</color>
+</resources>
+XML

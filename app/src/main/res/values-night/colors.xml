@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Written by scripts/update.sh. -->
+<resources>
+    <color name="backgroundColor">#181719</color>
+</resources>
