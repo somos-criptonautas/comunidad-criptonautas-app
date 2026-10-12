@@ -12,6 +12,10 @@ first, then regenerate:
 
     sh scripts/update.sh
 
+Icons come straight from the [brand kit](https://github.com/somos-criptonautas/brand-kit)
+(`discourse/large-icon-512.png`, `discourse/push-icon-96.png`): after a kit update, run the
+script and release to pick them up.
+
 It runs `bubblewrap update` and then drops the "open these links in the app" rules Bubblewrap
 adds for each `additionalTrustedOrigins` host, so only forum links open the app from elsewhere
 on the phone. Don't run a bare `bubblewrap update`.
