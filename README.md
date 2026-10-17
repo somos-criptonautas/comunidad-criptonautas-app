@@ -1,5 +1,7 @@
 # Comunidad Criptonautas — Android
 
+**ENGLISH** | [ESPAÑOL](README.es.md)
+
 Trusted Web Activity for https://comunidad.criptonautas.co, generated with
 [Bubblewrap](https://github.com/GoogleChromeLabs/bubblewrap). No app code: Chrome renders the
 forum full screen. Push notifications, share-to-app and shortcuts come from the forum's PWA manifest.
@@ -38,3 +40,9 @@ https://comunidad.criptonautas.co/.well-known/assetlinks.json, otherwise the app
 The hosts in `additionalTrustedOrigins` open full screen inside the app when the forum links to
 them. Each one must serve the same `assetlinks.json`, or it opens with Chrome's address bar
 instead. Adding or removing a host means a new release.
+
+## License
+
+[Apache-2.0](LICENSE), like the Bubblewrap template it is generated from.
+
+Text of this README under [CC BY-NC-SA 4.0](CC-BY-NC-SA-4.0.txt).
